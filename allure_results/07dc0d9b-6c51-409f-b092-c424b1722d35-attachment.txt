@@ -1,0 +1,1 @@
+[33mWARNING [0m selenium.webdriver.common.selenium_manager:selenium_manager.py:107 Incompatible release of geckodriver (version 0.29.1) detected in PATH: /usr/local/bin/geckodriver
