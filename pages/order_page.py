@@ -1,32 +1,9 @@
-import random
 import allure
-from faker import Faker
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from locators.base_page_locators import BasePageLocators
 from locators.order_page_locators import OrderPageLocators
 from pages.base_page import BasePage
-
-
-class OrderData:
-    faker = Faker("ru_RU")
-    phone = random.randint(11111111111, 99999999999)
-    name_1 = faker.first_name_male()
-    name_2 = faker.first_name_female()
-    last_name_1 = faker.last_name_male()
-    last_name_2 = faker.last_name_female()
-    address_1 = 'Москва, Новоясевская'
-    address_2 = 'Москва, Мякинино'
-    metro_station_1 = 'Новоясевская'
-    metro_station_2 = 'Мякинино'
-    date_1 = '20.01.2024'
-    date_2 = '10.12.2022'
-    rental_period_1 = 0
-    rental_period_2 = 6
-    scooter_finish_1 = 0
-    scooter_finish_2 = 1
-    comment_1 = 'Спасибо'
-    comment_2 = 'Жду самокат:)'
 
 
 class OrderPage(BasePage):

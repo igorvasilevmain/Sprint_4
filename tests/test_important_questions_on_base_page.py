@@ -1,6 +1,6 @@
 import allure
 import pytest
-from parametrize import ImportantQuestionsData
+from data.important_questions_data import ImportantQuestionsData
 from pages.base_page import BasePage
 
 
