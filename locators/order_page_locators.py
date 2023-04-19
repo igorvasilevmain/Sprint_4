@@ -1,7 +1,7 @@
 from selenium.webdriver.common.by import By
 
 
-class OrderPageLocators:
+class FirstOrderFormLocators:
     # Поле ввода имени
     NAME_FIELD = (By.XPATH, '//input[@placeholder="* Имя"]')
     # Поле ввода фамилии
@@ -18,6 +18,9 @@ class OrderPageLocators:
                  '//input[@placeholder="* Телефон: на него позвонит курьер"]')
     # Кнопка "Далее"
     NEXT_BUTTON = (By.XPATH, '//button[text()="Далее"]')
+
+
+class SecondOrderFormLocators:
     # Поле ввода даты
     DATE_FIELD = (By.XPATH, '//input[@placeholder="* Когда привезти самокат"]')
     # Клик на выбранную дату
@@ -35,6 +38,9 @@ class OrderPageLocators:
     ORDER_BUTTON = \
         (By.XPATH,
          '//button[@class="Button_Button__ra12g Button_Middle__1CSJM"]')
+
+
+class ModalWindowLocators:
     # Кнопка подтверждения заказа
     CONFIRM_BUTTON = (By.XPATH,
                       '//button[@class="Button_Button__ra12g '
