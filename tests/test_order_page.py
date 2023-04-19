@@ -1,7 +1,8 @@
 import allure
-from data.order_data import *
+from data.order_data import UserMaleFirstForm, UserMaleSecondForm, \
+    UserFemaleFirstForm, UserFemaleSecondForm
 from pages.main_page import MainPage
-from pages.order_page import *
+from pages.order_page import OrderPage, BasePage
 
 
 class TestScooterOrder:

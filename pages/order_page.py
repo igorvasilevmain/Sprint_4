@@ -1,5 +1,6 @@
 import allure
-from locators.order_page_locators import *
+from locators.order_page_locators import FirstOrderFormLocators, \
+    SecondOrderFormLocators, ModalWindowLocators
 from pages.base_page import BasePage
 
 

@@ -1,8 +1,7 @@
 import allure
 import pytest
 from data.important_questions_data import ImportantQuestionsData
-from pages.base_page import BasePage
-from pages.main_page import MainPage
+from pages.main_page import MainPage, BasePage
 
 
 class TestImportantQuestions:
